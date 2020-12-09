@@ -1,0 +1,10 @@
+<h1>This is the index page to show all coupons</h1>
+<br>
+<div>
+   <ul><%@coupons.map{|coupon|%>
+    
+        <li><%=coupon.coupon_code%> | <%=coupon.store%></</li>
+
+    <%}%>
+    </ul> 
+</div>
